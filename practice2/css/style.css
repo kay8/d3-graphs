@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+svg {
+  width: 600px;
+  height: 500px;
+  border: 1px solid gray;
+  margin: 25px auto;
+  display: block;
+}
+
+.axis text {
+  font-size: 9px;
+}
+
+.axis path,
+.axis line,
+.axis-x line {
+  fill: none;
+  stroke: #000;
+}
+
+.line {
+  transform-origin: left center;
+}
+
+button {
+  display: inline-block;
+}
+
+.country-list {
+  margin: 25px auto;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.country-item {
+  display: inline-block;
+}
