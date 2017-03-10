@@ -17,7 +17,7 @@ var pack = d3.pack()
 
 d3.csv("flare.csv", function(d) {
   d.value = +d.value;
-  //console.log(d.value);
+  //console.log(d);
   if (d.value) {return d;}
 }, function(error, classes) {
   if (error) {throw error;}
@@ -40,8 +40,8 @@ d3.csv("flare.csv", function(d) {
       .attr("transform", function(d) {
         //console.log(d.x);
         //console.log(d.y);
-        console.log(d);
-        console.log('===');
+        // console.log(d);
+        // console.log('===');
         return "translate(" + d.x + "," + d.y + ")";
       });
 
