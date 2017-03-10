@@ -14,7 +14,7 @@ const pack = d3.pack()
   .padding(1.5);
 
 
-d3.csv('../../data/crime_csv_2003_2017.csv', d=> {
+d3.csv('../data/crime_csv_2003_2017.csv', d=> {
   d.frequency = +d.frequency;
   if (d.frequency) {
     return d;
