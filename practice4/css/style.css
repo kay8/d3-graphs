@@ -19,3 +19,6 @@ svg {
   display: block;
   text-anchor: middle;
 }
+text {
+  font-size: 10px;
+}
